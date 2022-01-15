@@ -155,10 +155,31 @@ height: 414px;
     text-align: end;
     margin-right: 90px;
 }
+
+/* influence--------------------------
+------------------------ */
+.influence{
+    display: flex;
+    margin: 30px;
+}
+.img-influence img{
+    width: 100%;
+    height: 100%;
+}
+.influence-info{
+    width: 100%;
+    margin-left: 30px;
+}
+.button{
+    background-color: #E02C6D;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+}
 /* footer ------------------------
 ----------------------- */
 .footer{
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #0A0826;
+    color: #FFFFFF;
 }
