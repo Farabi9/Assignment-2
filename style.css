@@ -22,8 +22,8 @@ body{
     padding-right: 50px;
 }
 .arrow{
-    background-color: purple;
-    border-radius: 5px;
+    background-color: #E02C6D;
+    border-radius: 41px;
     
     padding: 5px;
     width: fit-content;
@@ -32,8 +32,9 @@ body{
 a{
     text-decoration: none;
     color: white;
+    
 }
-.fa-arrow-right{
+#right{
     color: white;
 }
 .img{
@@ -44,6 +45,120 @@ height: 414px;
 /* section-2----------------------
 ------------------- */
 
-h2{
+.title{
     text-align: center;
+}
+.popular-products{
+    margin: 30px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+   
+}
+.img-1{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.img-2{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.img-3{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.img-4{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.img-5{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.img-6{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.img-7{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.img-8{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+.img-9{
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: 300px;
+}
+
+.fa-star{
+    color: orange;
+}
+.product-info{
+    display: block;
+}
+.see{
+    color: #E02C6D;
+}
+.fa-arrow-right, .see{
+    color: #E02C6D;
+}
+.text-end{
+    text-align: end;
+    margin-right: 90px;
+}
+/* footer ------------------------
+----------------------- */
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
